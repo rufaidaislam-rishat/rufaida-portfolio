@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0A0A0F;
+  --bg-secondary: #12121A;
+  --bg-tertiary: #1A1A2E;
+  --accent-blue: #4F46E5;
+  --accent-purple: #7C3AED;
+  --accent-cyan: #06B6D4;
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --border: #1E293B;
+  --glass: rgba(255, 255, 255, 0.04);
+  --glass-hover: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-border-hover: rgba(124, 58, 237, 0.4);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+body {
+  background-color: #0A0A0F;
+  color: #F1F5F9;
+  overflow-x: hidden;
+  min-height: 100vh;
+  position: relative;
+  selection-background-color: #7C3AED;
+  selection-color: #FFFFFF;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4F46E5;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(18, 18, 26, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-panel:hover {
+  border-color: rgba(124, 58, 237, 0.4);
+}
+
+.glass-panel-elevated {
+  background: rgba(26, 26, 46, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Text Gradients */
+.text-gradient {
+  background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 50%, #06B6D4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-purple {
+  background: linear-gradient(135deg, #A78BFA 0%, #C084FC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "_comment": "PROFILE DATA ARCHITECTURE: Single source of truth for Most. Rufaida Islam Rishat's portfolio. Edit this file to update any content across the site.",
+  "personal": {
+    "name": "Most. Rufaida Islam Rishat",
+    "shortName": "Rufaida",
+    "role": "ECE Student & Aspiring AI Data Specialist",
+    "university": "Hajee Mohammad Danesh Science and Technology University (HSTU)",
+    "universityShort": "HSTU",
+    "department": "Electronics & Communication Engineering (ECE)",
+    "academicYear": "2nd Year, 1st Semester",
+    "location": "Dinajpur, Bangladesh",
+    "country": "Bangladesh",
+    "email": "rufaidarishat@gmail.com",
+    "linkedin": "[YOUR_LINKEDIN_URL]",
+    "github": "https://github.com/rufaidaislam-rishat",
+    "resumePath": "/resume/Rufaida_Islam_Rishat_Resume.pdf"
+  },
+  "hero": {
+    "eyebrow": "< Hello, I'm Rufaida! />",
+    "title": "I'm Rufaida Islam",
+    "subtitle": "ECE Student · AI Data Annotator · AI Training Enthusiast",
+    "description": "An ECE student building skills in AI data annotation, evaluation, programming, and practical AI workflows.",
+    "primaryCta": {
+      "text": "View My Work",
+      "href": "#projects"
+    },
+    "secondaryCta": {
+      "text": "Let's Connect",
+      "href": "#contact"
+    }
+  },
+  "about": {
+    "eyebrow": "ABOUT ME",
+    "title": "Building My Path from ECE to AI",
+    "bio": [
+      "My name is Most. Rufaida Islam Rishat. I am a 2nd Year, 1st Semester Electronics & Communication Engineering (ECE) student at Hajee Mohammad Danesh Science and Technology University (HSTU), Bangladesh.",
+      "I am interested in artificial intelligence, AI data annotation, AI training, model evaluation, data quality, and technology-driven problem solving.",
+      "As a native Bengali speaker with fluent English communication skills, I am particularly interested in Bengali-English language tasks, AI evaluation, data annotation, content review, and other human-in-the-loop AI workflows.",
+      "Alongside my academic studies, I am building practical skills in programming and technology, including C, C++, Python, spreadsheets, web research, and AI-assisted productivity tools.",
+      "My goal is to grow from an early-career learner into a strong technical professional who can contribute to real-world AI and data projects while continuously improving my engineering and problem-solving skills."
+    ],
+    "cards": [
+      {
+        "id": "card-1",
+        "title": "ECE Student",
+        "subtitle": "HSTU · 2nd Year, 1st Semester",
+        "icon": "GraduationCap",
+        "highlight": false
+      },
+      {
+        "id": "card-2",
+        "title": "AI Career Focus",
+        "subtitle": "Data Annotation · AI Training · Evaluation",
+        "icon": "Brain",
+        "highlight": false
+      },
+      {
+        "id": "card-3",
+        "title": "Languages",
+        "subtitle": "Bengali · English",
+        "icon": "Languages",
+        "highlight": false
+      },
+      {
+        "id": "card-4",
+        "title": "Based in",
+        "subtitle": "Bangladesh 🇧🇩",
+        "icon": "MapPin",
+        "highlight": false
+      },
+      {
+        "id": "card-5",
+        "title": "Currently Learning",
+        "subtitle": "Programming · AI/ML · Data Workflows",
+        "icon": "Sparkles",
+        "highlight": true
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "AI Data Annotation",
+      "description": "Labeling and organizing data for AI and machine learning workflows.",
+      "icon": "Tag",
+      "category": "AI & Data"
+    },
+    {
+      "id": "skill-2",
+      "name": "AI Response Evaluation",
+      "description": "Reviewing AI-generated responses for relevance, quality, accuracy, and instruction-following.",
+      "icon": "CheckCircle2",
+      "category": "AI & Data"
+    },
+    {
+      "id": "skill-3",
+      "name": "Data Quality & QA",
+      "description": "Checking data consistency, completeness, and quality using structured evaluation methods.",
+      "icon": "ShieldCheck",
+      "category": "AI & Data"
+    },
+    {
+      "id": "skill-4",
+      "name": "AI Training & Human Feedback",
+      "description": "Understanding human-in-the-loop workflows used to improve AI systems.",
+      "icon": "GitFork",
+      "category": "AI & Data"
+    },
+    {
+      "id": "skill-5",
+      "name": "Bengali-English Language Tasks",
+      "description": "Working with Bengali and English language data for AI-related tasks and evaluation.",
+      "icon": "Languages",
+      "category": "Linguistics"
+    },
+    {
+      "id": "skill-6",
+      "name": "Content Review",
+      "description": "Reviewing text and AI-generated content against given guidelines and quality criteria.",
+      "icon": "FileSearch",
+      "category": "AI & Data"
+    },
+    {
+      "id": "skill-7",
+      "name": "Web Research & Data Entry",
+      "description": "Collecting, organizing, verifying, and entering information accurately.",
+      "icon": "Search",
+      "category": "Research & Productivity"
+    },
+    {
+      "id": "skill-8",
+      "name": "Google Sheets & Microsoft Excel",
+      "description": "Using spreadsheets for data organization, tracking, reporting, and structured workflows.",
+      "icon": "Table",
+      "category": "Research & Productivity"
+    },
+    {
+      "id": "skill-9",
+      "name": "C Programming",
+      "description": "Learning programming fundamentals, logic, functions, loops, arrays, and problem solving.",
+      "icon": "Code2",
+      "category": "Programming"
+    },
+    {
+      "id": "skill-10",
+      "name": "C++ Programming",
+      "description": "Building foundational knowledge of OOP, classes, constructors, functions, references, and pointers.",
+      "icon": "Cpu",
+      "category": "Programming"
+    },
+    {
+      "id": "skill-11",
+      "name": "Python",
+      "description": "Developing beginner-level Python skills including strings, conditions, loops, slicing, and basic data processing.",
+      "icon": "Terminal",
+      "category": "Programming"
+    },
+    {
+      "id": "skill-12",
+      "name": "AI-Assisted Productivity",
+      "description": "Using modern AI tools to support learning, research, productivity, and workflow improvement.",
+      "icon": "Zap",
+      "category": "Research & Productivity"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "title": "Electronics & Communication Engineering — HSTU",
+      "role": "Student",
+      "period": "2026 – Present",
+      "status": "Current",
+      "details": [
+        "Studying Electronics & Communication Engineering",
+        "Building foundations in mathematics, programming, electrical engineering, and computer-related subjects",
+        "Developing technical problem-solving and engineering skills",
+        "Exploring practical applications of programming and AI"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "title": "AI Data Annotation & Evaluation",
+      "role": "Project-Based / Freelance Experience",
+      "period": "Editable",
+      "status": "Project-based",
+      "details": [
+        "Worked with AI/data-related annotation and evaluation tasks",
+        "Reviewed and labeled data according to project-specific guidelines",
+        "Performed quality checking and structured content evaluation",
+        "Developed attention to detail and consistency through annotation workflows",
+        "Built experience with human-in-the-loop AI tasks"
+      ]
+    },
+    {
+      "id": "exp-3",
+      "title": "Bengali-English AI Data Tasks",
+      "role": "Language Data / AI Evaluation",
+      "period": "Editable",
+      "status": "Project-based",
+      "details": [
+        "Worked with Bengali and English language data",
+        "Reviewed AI-generated language content",
+        "Focused on naturalness, relevance, correctness, and guideline adherence",
+        "Developed awareness of linguistic quality and AI response evaluation"
+      ]
+    },
+    {
+      "id": "exp-4",
+      "title": "Programming Development",
+      "role": "Student / Self-Learning",
+      "period": "2025 – Present",
+      "status": "Active Learning",
+      "details": [
+        "Learning C and C++ programming",
+        "Studying object-oriented programming concepts",
+        "Practicing Python fundamentals",
+        "Working with strings, conditions, loops, functions, slicing, and basic problem solving",
+        "Building programming confidence alongside university studies"
+      ]
+    },
+    {
+      "id": "exp-5",
+      "title": "AI & Remote Work Preparation",
+      "role": "Aspiring AI Data Professional",
+      "period": "Present",
+      "status": "Ongoing",
+      "details": [
+        "Exploring remote opportunities in data annotation and AI training",
+        "Building a professional portfolio",
+        "Improving AI evaluation and data quality skills",
+        "Developing communication and research abilities",
+        "Learning how real-world AI data workflows operate"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "AI Data Annotation & Evaluation",
+      "category": "AI Data · Annotation · Evaluation",
+      "description": "A collection of hands-on AI data tasks involving annotation, content review, quality checking, and structured evaluation of AI-related data.",
+      "type": "Project-Based Work",
+      "tags": [
+        "Data Annotation",
+        "AI Evaluation",
+        "Data QA",
+        "Content Review",
+        "AI Training"
+      ],
+      "github": "",
+      "liveDemo": "",
+      "details": [
+        "Executed structured text and multi-modal data annotation following detailed specification guidelines.",
+        "Performed qualitative comparisons between model outputs to assess factual accuracy, clarity, and safety.",
+        "Conducted multi-step consistency QA across diverse dataset batches."
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Bengali-English AI Language Evaluation",
+      "category": "NLP · Language Data",
+      "description": "Practical work involving Bengali and English language data, including review of AI-generated language, comparison of outputs, and evaluation of naturalness, relevance, and guideline adherence.",
+      "type": "Language Data & NLP",
+      "tags": [
+        "Bengali",
+        "English",
+        "NLP",
+        "AI Evaluation",
+        "Language Data"
+      ],
+      "github": "",
+      "liveDemo": "",
+      "details": [
+        "Evaluated Bengali machine translations and localized text against source English prompts.",
+        "Scored response fluency, grammar, contextual appropriateness, and cultural nuances.",
+        "Documented guideline edge cases to assist dataset standardization."
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "C++ OOP Practice Collection",
+      "category": "Programming · C++",
+      "description": "A collection of beginner-friendly C++ practice programs covering classes, objects, constructors, destructors, copy constructors, function overloading, references, pointers, friend functions, recursion, and object-oriented programming concepts.",
+      "type": "Learning Project",
+      "tags": [
+        "C++",
+        "OOP",
+        "Classes",
+        "Constructors",
+        "Pointers"
+      ],
+      "github": "",
+      "liveDemo": "",
+      "details": [
+        "Implemented class hierarchies demonstrating encapsulation, abstraction, and memory management.",
+        "Practiced pointer arithmetic, reference passing, and dynamic memory allocation with new/delete.",
+        "Built modular console programs to solve university engineering problem sets."
+      ]
+    },
+    {
+      "id": "proj-4",
+      "title": "Python Fundamentals Practice",
+      "category": "Programming · Python",
+      "description": "A learning project focused on Python fundamentals including strings, slicing, conditions, loops, iteration, indexing, basic parsing, and simple logic-based programs.",
+      "type": "Learning Project",
+      "tags": [
+        "Python",
+        "Strings",
+        "Loops",
+        "Conditions",
+        "Data Processing"
+      ],
+      "github": "",
+      "liveDemo": "",
+      "details": [
+        "Developed string tokenization, cleaning, and pattern searching routines.",
+        "Wrote scripts for tabular data processing, file I/O, and automated spreadsheet checks.",
+        "Strengthened algorithmic problem solving through iterative logic implementations."
+      ]
+    }
+  ],
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Let's Connect",
+    "description": "I am open to discussions regarding AI data annotation projects, training tasks, language evaluation, and collaborative learning opportunities.",
+    "formspreeEndpoint": "https://formspree.io/f/YOUR_FORM_ID",
+    "email": "rufaidarishat@gmail.com",
+    "linkedin": "[YOUR_LINKEDIN_URL]",
+    "github": "https://github.com/rufaidaislam-rishat",
+    "location": "Dinajpur, Bangladesh 🇧🇩",
+    "availability": "Open to remote opportunities"
+  },
+  "footer": {
+    "copyright": "© 2026 Rufaida Islam Rishat. All rights reserved.",
+    "credit": "Built with Next.js, Three.js & Framer Motion"
+  }
+}
