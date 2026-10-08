@@ -98,6 +98,7 @@ rufaida-portfolio/
 │
 └── public/
     └── resume/
+        ├── Resume of Most Rufaida Islam Rishat.pdf
         └── Rufaida_Islam_Rishat_Resume.pdf
 ```
 
@@ -183,8 +184,9 @@ Your article content written in standard Markdown...
 ### 6. Replace Resume
 Place your updated PDF file in:
 ```
-/public/resume/Rufaida_Islam_Rishat_Resume.pdf
+/public/resume/Resume of Most Rufaida Islam Rishat.pdf
 ```
+(A backward-compatible copy `Rufaida_Islam_Rishat_Resume.pdf` is also maintained.)
 The "Resume" button in the navigation and mobile drawer will automatically download this file.
 
 ### 7. Configure Contact Form (Formspree)

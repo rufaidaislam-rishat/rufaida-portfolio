@@ -99,8 +99,10 @@ export function Navbar() {
           {/* Right Action (Resume) & Hamburger */}
           <div className="flex items-center gap-3">
             <a
-              href={profileData.personal.resumePath}
-              download="Rufaida_Islam_Rishat_Resume.pdf"
+              href={encodeURI(profileData.personal.resumePath)}
+              download="Resume of Most Rufaida Islam Rishat.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-medium bg-[#1A1A2E]/90 hover:bg-[#7C3AED]/20 border border-[#7C3AED]/40 hover:border-[#7C3AED] text-white transition-all shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7C3AED]"
               aria-label="Download Rufaida's Resume PDF"
             >
@@ -155,8 +157,10 @@ export function Navbar() {
 
             <div className="pt-6 border-t border-white/10 flex flex-col gap-4">
               <a
-                href={profileData.personal.resumePath}
-                download="Rufaida_Islam_Rishat_Resume.pdf"
+                href={encodeURI(profileData.personal.resumePath)}
+                download="Resume of Most Rufaida Islam Rishat.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
                 className="w-full py-3.5 rounded-xl font-medium text-center bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white flex items-center justify-center gap-2 shadow-lg shadow-[#7C3AED]/25"
               >
